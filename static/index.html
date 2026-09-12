@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#f7f9fc" />
+  <title>Srizon Message</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="fluid-bg"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+
+  <div id="authView" class="auth-shell">
+    <div class="auth-card glass">
+      <div class="brand-mark">✦</div>
+      <h1>Srizon Message</h1>
+      <p class="subtitle">Simple, secure, fluid conversations.</p>
+      <div class="auth-tabs"><button class="active" data-auth="login">Login</button><button data-auth="signup">Sign up</button></div>
+      <form id="loginForm" class="auth-form">
+        <label><span>Username</span><input id="loginUsername" placeholder="your username" autocomplete="username" required /></label>
+        <label><span>Password</span><input id="loginPassword" placeholder="••••••••" type="password" autocomplete="current-password" required /></label>
+        <button class="primary-btn" type="submit">Continue</button>
+      </form>
+      <form id="signupForm" class="auth-form hidden">
+        <label><span>Display name</span><input id="signupName" placeholder="Your name" maxlength="50" required /></label>
+        <label><span>Username</span><input id="signupUsername" placeholder="username" maxlength="30" required /></label>
+        <label><span>Password</span><input id="signupPassword" placeholder="8+ characters" type="password" minlength="8" required /></label>
+        <button class="primary-btn" type="submit">Create account</button>
+      </form>
+      <div id="authError" class="error-box hidden"></div>
+    </div>
+  </div>
+
+  <div id="appView" class="app-shell hidden">
+    <header class="topbar glass">
+      <div class="brand"><span class="brand-icon">✦</span><span>Srizon Message</span></div>
+      <div class="mode-switch" role="tablist" aria-label="Chat type">
+        <button class="mode-btn active" data-mode="group">Group</button>
+        <button class="mode-btn" data-mode="personal">Personal</button>
+      </div>
+      <div class="profile-area"><span id="currentUser"></span><button id="logoutBtn" class="icon-btn" aria-label="Logout">↗</button></div>
+    </header>
+
+    <main class="content-grid">
+      <aside class="sidebar glass">
+        <div class="side-head"><div><h2 id="listTitle">Public group</h2><p id="listHint">Everyone can join</p></div></div>
+        <div id="chatList" class="chat-list"></div>
+      </aside>
+
+      <section class="chat-panel glass">
+        <div id="emptyState" class="empty-state"><div class="empty-icon">◌</div><h2>Pick a conversation</h2><p>Choose the public room or a person to start chatting.</p></div>
+        <div id="chatView" class="hidden chat-view">
+          <div class="chat-head"><div><div class="eyebrow" id="chatKind">GROUP</div><h2 id="chatTitle"></h2><p id="chatSub"></p></div><div id="onlineDot" class="online-dot"></div></div>
+          <div id="replyBar" class="reply-bar hidden"><div><b>Replying</b><span id="replyText"></span></div><button id="cancelReply" aria-label="Cancel reply">×</button></div>
+          <div id="messages" class="messages"></div>
+          <form id="composer" class="composer">
+            <textarea id="messageInput" rows="1" placeholder="Message..." maxlength="5000" autocomplete="off"></textarea>
+            <button id="sendBtn" aria-label="Send message" type="submit"><span>↑</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

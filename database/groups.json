@@ -1,0 +1,13 @@
+[
+  {
+    "id": "public_lounge",
+    "name": "Public Lounge",
+    "member_ids": [
+      "26918237-5b54-4c9c-b37d-9950315a4411",
+      "3e493f46-b84c-4f97-8555-5cd95b7e1045",
+      "7c1476df-5a78-447a-96a6-8bb3b9463b33"
+    ],
+    "public": true,
+    "created_at": "2026-09-12T13:08:41.495937+00:00"
+  }
+]

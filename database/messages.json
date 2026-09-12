@@ -1,0 +1,46 @@
+[
+  {
+    "id": "80b4207d-0965-4469-bc75-751ef5209ed2",
+    "conversation_id": "public_lounge",
+    "chat_type": "group",
+    "sender_id": "26918237-5b54-4c9c-b37d-9950315a4411",
+    "username": "Phone User",
+    "text": "hello public",
+    "timestamp": "2026-09-12T13:08:41.664189+00:00",
+    "reply_to": null,
+    "deleted": false
+  },
+  {
+    "id": "3adae46e-03ce-47fa-9916-9684d0e19082",
+    "conversation_id": "public_lounge",
+    "chat_type": "group",
+    "sender_id": "3e493f46-b84c-4f97-8555-5cd95b7e1045",
+    "username": "Nur Mohammad Srizon",
+    "text": "yooo",
+    "timestamp": "2026-09-12T13:10:34.839162+00:00",
+    "reply_to": null,
+    "deleted": false
+  },
+  {
+    "id": "f5d4112b-2c7e-4ade-8bb3-77c2b327b66b",
+    "conversation_id": "dm_3e493f46-b84c-4f97-8555-5cd95b7e1045_7c1476df-5a78-447a-96a6-8bb3b9463b33",
+    "chat_type": "personal",
+    "sender_id": "7c1476df-5a78-447a-96a6-8bb3b9463b33",
+    "username": "Srizon",
+    "text": "Hii",
+    "timestamp": "2026-09-12T13:11:50.558130+00:00",
+    "reply_to": null,
+    "deleted": false
+  },
+  {
+    "id": "30776d79-1b3a-4d2c-b872-979cc7fd9939",
+    "conversation_id": "dm_3e493f46-b84c-4f97-8555-5cd95b7e1045_7c1476df-5a78-447a-96a6-8bb3b9463b33",
+    "chat_type": "personal",
+    "sender_id": "3e493f46-b84c-4f97-8555-5cd95b7e1045",
+    "username": "Nur Mohammad Srizon",
+    "text": "hmm",
+    "timestamp": "2026-09-12T13:12:14.421663+00:00",
+    "reply_to": null,
+    "deleted": false
+  }
+]

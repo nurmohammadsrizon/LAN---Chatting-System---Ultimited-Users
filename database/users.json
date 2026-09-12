@@ -1,0 +1,23 @@
+[
+  {
+    "id": "26918237-5b54-4c9c-b37d-9950315a4411",
+    "username": "phoneuser",
+    "display_name": "Phone User",
+    "password_hash": "pbkdf2_sha256$240000$eiu_PnM09VHTOLGLhYKoAA==$qlWHknaMNdwI5i7lG03DT_ZfVgZxnabJb5ku-zPIvO0=",
+    "created_at": "2026-09-12T13:08:41.653303+00:00"
+  },
+  {
+    "id": "3e493f46-b84c-4f97-8555-5cd95b7e1045",
+    "username": "srizonbro",
+    "display_name": "Nur Mohammad Srizon",
+    "password_hash": "pbkdf2_sha256$240000$b8TN0kStnCN468sa9OViug==$3dP9R7RfT6zKjLxwn3WxRnNYFZPg1-fBjFfqPac6nWY=",
+    "created_at": "2026-09-12T13:10:25.146541+00:00"
+  },
+  {
+    "id": "7c1476df-5a78-447a-96a6-8bb3b9463b33",
+    "username": "blazeness",
+    "display_name": "Srizon",
+    "password_hash": "pbkdf2_sha256$240000$hltjqpiSbMeLSkHWPH_eYA==$KLF3XVRGKiwBEBa8rZMlFkluLLJY5fVjxH5lEfRvz40=",
+    "created_at": "2026-09-12T13:11:31.253569+00:00"
+  }
+]
