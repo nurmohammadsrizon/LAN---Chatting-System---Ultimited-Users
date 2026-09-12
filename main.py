@@ -57,7 +57,7 @@ html = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAN Real-time Chat</title>
+    <title>CHAT WITH SRIZON TEAM</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -191,7 +191,7 @@ html = """
     </div>
 
     <header>
-        <h1>LAN Chat</h1>
+        <h1>CHAT WITH SRIZON</h1>
         <div id="status">Connecting...</div>
     </header>
 
